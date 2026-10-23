@@ -1,0 +1,90 @@
+
+@font-face {
+  font-family: "DSEG7";
+  src: url("https://cdn.jsdelivr.net/npm/dseg@0.46.0/fonts/DSEG7-Classic/DSEG7Classic-Bold.woff2") format("woff2");
+}
+
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #dfeae3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, sans-serif;
+}
+
+
+.container {
+  width: 640px;
+  padding: 40px 20px 60px;
+  background: #1b2651;
+  border: 4px solid white;
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.div1,
+.div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+h3 {
+  margin: 0 0 14px 0;
+  color: white;
+  font-family: agdasima;
+  font-size: 55px;
+}
+
+h2 {
+  margin: 0;
+  width: 180px;
+  height: 128px;
+  line-height: 128px;     
+  padding-right: 22px;
+  box-sizing: border-box;  
+  text-align: right;      
+  background: #080000;
+  color: #f94f6d;
+  font-family: "DSEG7", monospace;
+  font-size: 80px;
+  border-radius: 4px;
+}
+
+
+button {
+  width: 48px;
+  height: 45px;
+  margin: 28px 3px 0 3px;   
+  background: transparent;
+  color: #b5c4ea;
+  border: 1px solid #b5c4ea;
+  border-radius: 5px;
+  font-family: "DSEG7", monospace;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#home-start-over,
+#guest-start-over {
+    height: 60px;
+    width: 166px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font: bold;
+    font-family: agdasima;
+}
+
+button:hover {
+  background: #2c3a70;     
+}
+    
+button {
+    background: none;
+}
